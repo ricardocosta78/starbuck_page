@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Starbuck</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="nav">
+          <a href="index.html" class="logo">
+            <img src="images/logo.png" alt="" />
+          </a>
+          <div class="hamburguer-menu">
+            <i class="fas fa-bars"></i>
+            <i class="fas fa-times"></i>
+          </div>
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Whats's New</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+            <ul class="sci">
+              <li>
+                <a href="#"><img src="images/facebook.png" alt="" /></a>
+              </li>
+              <li>
+                <a href="#"><img src="images/instagram.png" alt="" /></a>
+              </li>
+              <li>
+                <a href="#"><img src="images/twitter.png" alt="" /></a>
+              </li>
+            </ul>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <div class="content">
+      <div class="circle"></div>
+      <div class="textBox">
+        <h2>It's not just Coffee <br />It's <span>Starbucks</span></h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet aperiam
+          facilis voluptate consequuntur cumque, tempora quibusdam nisi illum.
+          Odio, earum cupiditate quam minus necessitatibus iure illum
+          perferendis quia cum voluptates?
+        </p>
+        <a href="#" class="button">Learn More</a>
+      </div>
+
+      <div class="imageBox">
+        <img src="images/img1.png" class="starbucks" alt="" />
+      </div>
+    </div>
+    <ul class="thumb">
+      <li>
+        <img
+          src="images/thumb1.png"
+          onclick="imgSlider('images/img1.png');changeColor('#017143');changeHeader('#017143');changeColorH2('#017143');changeColorButton('#017143')"
+        />
+      </li>
+      <li>
+        <img
+          src="images/thumb2.png"
+          onclick="imgSlider('images/img2.png');changeColor('#eb7495');changeHeader('#eb7495');changeColorH2('#eb7495');changeColorButton('#eb7495')"
+        />
+      </li>
+      <li>
+        <img
+          src="images/thumb3.png"
+          onclick="imgSlider('images/img3.png');changeColor('#d752b1');changeHeader('#d752b1');changeColorH2('#d752b1');changeColorButton('#d752b1')"
+        />
+      </li>
+    </ul>
+    <ul class="sci">
+      <li>
+        <a href="#"><img src="images/facebook.png" alt="" /></a>
+      </li>
+      <li>
+        <a href="#"><img src="images/instagram.png" alt="" /></a>
+      </li>
+      <li>
+        <a href="#"><img src="images/twitter.png" alt="" /></a>
+      </li>
+    </ul>
+    <script src="main.js"></script>
+  </body>
+</html>
